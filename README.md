@@ -63,7 +63,4 @@ Drag and drop is built from scratch strictly using the native **Pointer Events A
 The hardest UI problem to solve was implementing a flawless custom drag-and-drop experience that worked natively on both mobile touch screens and desktop mice without third-party tools. Creating a drag placeholder without Layout Shift was accomplished by injecting an empty `div` that computed the exacte height (`getBoundingClientRect().height`) and bottom margins of the original card immediately upon pointer-down. This preserved the document flow perfectly. The original task element wasn't detached from the DOM; instead it was overlaid with `opacity-0` and `pointer-events-none`. The "dragging" card the user sees is entirely a `position: fixed` clone.
 
 With more time, I would refactor the **Timeline / Gantt View** virtualization mechanism. Currently, while the List view handles 500 items via custom virtual scrolling out-of-the-box, the Gantt rendering logic could benefit from an intricate 2D windowing algorithm—both for vertical task list rendering and right-ward horizontal day navigation, to ensure it continues to hit 60fps scrolling on low-power devices.
-=======
-# Multi-View-Project-Tracker
-A multi-view project tracking system with task management and progress visualization.
->>>>>>> dbb2997a301111c82842668740e7720c9349446e
+
