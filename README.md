@@ -1,4 +1,3 @@
-![alt text](<Screenshot 2026-03-23 202636.png>)
 # Multi-View Project Tracker
 
 **🚀 [Live Demo (Vercel/Netlify) - Click Here](https://your-project-link.vercel.app/)**
